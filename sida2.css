@@ -31,7 +31,14 @@ nav {
     display: flex;
     justify-content: center;
     background: #444;
+<<<<<<< HEAD
     padding: 10px;
+=======
+    
+    padding: 10px 0;
+    position: sticky; top: 0;
+
+>>>>>>> b5156e794725202efaaec711f93bcd0f7cfb0c80
 }
 
 nav a {
@@ -39,6 +46,7 @@ nav a {
     text-decoration: none;
     margin: 15px;
     font-size: 18px;
+    
 }
 
 
