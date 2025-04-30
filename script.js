@@ -1,4 +1,4 @@
-function LeDunk(){
-    document.getElementById('Ledunk').style.display = "block"
-    document.getElementById('LeAudio').muted = document.getElementById('LeAudio').muted ? false : true;
+function alvinNY(){
+    document.getElementById('alvinNY').style.display = "block"
+    document.getElementById('talla').muted = document.getElementById('talla').muted ? true : false;
 }
