@@ -1,0 +1,14 @@
+.container {
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 361px;
+    margin-left: 223px;
+    
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url('alvinNY.png');
+    background-color: black;
+  }
