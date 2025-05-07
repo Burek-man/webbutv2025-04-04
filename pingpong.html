@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sida.css">
+    <link rel="stylesheet" href="pingpong.css">
     <title>pingpong</title>
 </head>
 <body>
@@ -34,23 +34,19 @@
 
 
             <style>
+                
+@media screen and (max-width: 500px) {
 
+    
+body { display:none }
 
-                html, body {
-              height: 100%;
-              margin: 0;
-            }
-          
-            body {
-              display: grid;
-              align-items: center;
-              justify-content: center;
-            }
-          
+}
+           
           </style>  
+
+              
           
-          
-              <canvas width="750" height="585" id="game"></canvas>
+              <canvas width="750" height="600" id="game"></canvas>
               <script>
               const canvas = document.getElementById('game');
               const context = canvas.getContext('2d');
@@ -195,31 +191,11 @@
               });
           
               requestAnimationFrame(loop);
-              
-               let light_mode = true;
-          let btn = document.getElementById("toggle_btn")
-          function toggle(){
-            let html = document.getElementsByTagName("html")
-            if(light_mode){
-              html[0].classList.remove("theme-light")
-              html[0].classList.add("theme-dark")
-              document.getElementById("icon").src = "moon-solid-24.png";
-              btn.classList.remove("is-dark");
-              btn.classList.add("is-light");
-              light_mode = false
-            }else{
-              html[0].classList.add("theme-light")
-              html[0].classList.remove("theme-dark")
-              document.getElementById("icon").src = "vit_sol.png";
-              btn.classList.add("is-dark");
-              btn.classList.remove("is-light");
-              light_mode = true
-            }
-          
-          }
           
           
           </script>
+
+
 
         </main>
 
