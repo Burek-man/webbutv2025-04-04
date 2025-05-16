@@ -3,18 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sida.css">
     <title>Document</title>
+    <link rel="stylesheet" href="sidakontakt.css">
 </head>
 <body>
-    <!DOCTYPE html>
-<html lang="sv">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-</head>
-<body>
+
+
     <div class="container">
 
         <header>
@@ -42,20 +36,42 @@
         <div class="container">
             <div class="product-container">
                
-                <div class="product-card">
-                    <img src="ChatGPT Image 23 apr. 2025 09_30_00.png" alt="Produktbild" class="product-img">
-                    <h3>Anders Webbutik är en smått legendarisk nätbutik som slog upp sina digitala dörrar redan 2007. Med ett charmigt och smått excentriskt sortiment har butiken lockat kunder från hela landet – alla på jakt efter något lite utöver det vanliga.
-
-                        Här hittar man bland annat den kultförklarade Alvin med pinne, en figur som snabbt blivit något av en ikon bland samlare. För den som vill ha variation finns även Alvin med krycka, en minst lika uppskattad version som ofta väcker både frågor och skratt. Och för finsmakaren i köket erbjuder Anders Webbutik även en riktigt populär sous vide-lösning – perfekt för den som vill ta sina matlagningskunskaper till nästa nivå.
-                        
-                        Det som gör Anders Webbutik speciell är inte bara de unika produkterna, utan också den genuina känslan av personlig service och humor. En plats där det udda får ta plats – och där varje beställning känns som ett litet äventyr.
-                    </h3>
-                    
-                </div>
-
-
-                <a href="button-sida.html"><img src="button.png" id="knapp"></a>
+                <form>
+                    <div>
+                      <label for="name">Name</label><br>
+                      <input type="text" id="name" name="name" placeholder="Name input">
+                    </div>
+                  
+                    <div>
+                      <label for="username">Username</label><br>
+                      <input type="text" id="username" name="username"  placeholder="Username input">
+                    </div>
+                  
+                    <div>
+                      <label for="email">Email</label><br>
+                      <input type="email" id="email" name="email"  placeholder="Email input">
+                    </div>
+                  
+                  
+                    <div>
+                      <label for="message">Message</label><br>
+                      <textarea id="message" name="message" placeholder="Textarea"></textarea>
+                    </div>
+                  
+                    <div>
+                      <label>
+                        <input type="checkbox" name="terms">
+                        I agree to the <a href="#">terms and conditions</a>
+                      </label>
+                    </div>
                 
+
+                    <div>
+                      <button type="submit">Submit</button>
+                    </div>
+                  </form>
+                  
+
         
     </main>
 
@@ -85,3 +101,7 @@
    
 </body>
 </html>
+
+
+
+

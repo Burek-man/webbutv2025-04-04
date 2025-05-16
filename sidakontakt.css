@@ -50,8 +50,8 @@ nav a {
 
 main{
 grid-area: main;
-background: #C94B4B;
-background: radial-gradient(circle, rgba(201, 75, 75, 1) 0%, rgba(9, 9, 121, 1) 100%);
+background: #6B0A0A;
+background: linear-gradient(270deg, rgba(107, 10, 10, 1) 0%, rgba(59, 9, 9, 1) 5%, rgba(153, 70, 70, 1) 50%, rgba(59, 9, 9, 1) 95%, rgba(107, 10, 10, 1) 100%);
 }
 
 .product-container {
@@ -59,49 +59,13 @@ background: radial-gradient(circle, rgba(201, 75, 75, 1) 0%, rgba(9, 9, 121, 1) 
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 20px;
-    margin: left 200px; ;
+    margin: left 200px; 
+    text-shadow: 0 0 10px rgb(255, 255, 255);
 }
 
-.product-card {
-    background: white;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 0 22px rgb(255, 255, 255);
-    text-align: center;
-    width: 20%;
-    min-width: 250px;
-    margin-bottom: 20px; 
-}
 
-.product-img {
-    width: 100px;
-    border-radius: 10px;
-}
 
-.product-title {
-    font-size: 24px;
-    margin: 10px 0;
-}
 
-.product-price {
-    font-size: 20px;
-    color: green;
-    font-weight: bold;
-}
-
-.buy-button {
-    background-color: #28a745;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-.buy-button:hover {
-    background-color: #218838;
-}
 
 footer {
     background: #333;
@@ -130,4 +94,5 @@ footer {
 .footer-section h3 {
     border-bottom: 2px solid white;
     padding-bottom: 5px;
+
 }
